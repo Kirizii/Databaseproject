@@ -1,10 +1,19 @@
 import pymysql
+from dotenv import load_dotenv
+import os
 from fastapi import FastAPI, HTTPException, Depends
 from sqlalchemy import Column, Integer, String, Text, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 
-DATABASE_URL = "mysql+pymysql://root:almak20@localhost:3306/database"
+load_dotenv()
+
+db_host = os.getenv('DB_HOST')
+db_name = os.getenv('DB_NAME')
+db_user = os.getenv('DB_USER')
+db_password = os.getenv('DB_PASSWORD')
+
+DATABASE_URL = (f'mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}')
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL is not set")
 engine = create_engine(DATABASE_URL)
