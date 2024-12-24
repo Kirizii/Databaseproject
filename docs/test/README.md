@@ -6,11 +6,13 @@
 
 ![Знімок екрана 2024-12-24 185239](https://github.com/user-attachments/assets/e184cee0-5d15-4448-bf19-4da41876af4d)
 
+
 ### Виведення результату
 
 ![Знімок екрана 2024-12-24 185348](https://github.com/user-attachments/assets/024c4dae-0c13-49e7-843d-87b63f91b3f6)
 
 ![Знімок екрана 2024-12-24 185356](https://github.com/user-attachments/assets/72c0935b-a2c7-4a0d-899e-869942e54818)
+
 
 ### Оновлення результату
 
@@ -19,6 +21,7 @@
 ![Знімок екрана 2024-12-24 185514](https://github.com/user-attachments/assets/4dd4625f-e7eb-44b8-b09f-e4721c7820e5)
 
 ![Знімок екрана 2024-12-24 185521](https://github.com/user-attachments/assets/f085cddc-88b0-493b-b98d-c37ae1c81141)
+
 
 ### Видалення результату
 
